@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "timestamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/WhatTimeIsIt.sol": "WhatTimeIsIt"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/WhatTimeIsIt.sol": {
+			"keccak256": "0x0268c0ae9705f461f75ca80fd03c024ce0e4f1e51062d215a5a0e1062959339c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8f7d5807da4c3e74fc3f9f2294833d51ed1e1ecf7174c5020c62c661e23ab624",
+				"dweb:/ipfs/QmQ1XEXEXkToRrawtTmozSsLVMwErNE4Qq2rAPyNQPK5mV"
+			]
+		}
+	},
+	"version": 1
+}
