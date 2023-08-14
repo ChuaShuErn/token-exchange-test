@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkFailure",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSenderAndValue",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSuccess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSuccess2",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"beforeAll()": {
+					"notice": "'beforeAll' runs before all other tests More special functions are: 'beforeEach', 'beforeAll', 'afterEach' & 'afterAll'"
+				},
+				"checkSenderAndValue()": {
+					"notice": "Custom Transaction Context: https://remix-ide.readthedocs.io/en/latest/unittesting.html#customization #sender: account-1 #value: 100"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/WorkTest_test.sol": "testSuite"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RareCoin.sol": {
+			"keccak256": "0x1db2603cc8d361c57eacbd22858840c321f91e2d32230e6e31e7c82ea90e9429",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e951e6e8cc1843a42101da8e846093889bbe05ae37a896174c44317dabc7e75b",
+				"dweb:/ipfs/QmdeJLgAErPDk5AACGQ1SjbnhL4qvKdqSomg7KSo4iEgzr"
+			]
+		},
+		"contracts/SkillsCoin.sol": {
+			"keccak256": "0x8c940dcdd3b2db522b3081fe558f02100fee456c61896cebfb4b5d22f7df8494",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://de8b2e616236b1f40c6dac33e546e9b1c3f10f401f51b09cbb69af13d2994e52",
+				"dweb:/ipfs/QmVAzQ4qixZj3jcPgM67hfEjdhRtVCJNhxvrXrGT5q9BTD"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0xab088ffd1cd1033f54c2486f151b5d02281a3b76724c8e6f48479c25a4f7809e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5ddaf9976b1838f7028cbedfaf7f6e1cf8c898e100221176ff1406ee8b599f23",
+				"dweb:/ipfs/QmX2FYLXYyo5Cn55ZX2CfngpscSh4mQhcMVzQdQsh2vqcG"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/WorkTest.sol": {
+			"keccak256": "0x98b3e889dcd4b69fbbee95e977d432617dac5be9a3d1968a408ae49eeebe9dca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31d440b1376ceab64b06f4aa295afe634c16180f00b12f2e714437c504ec4140",
+				"dweb:/ipfs/Qme5QdyVMnY1xKhyMMsfzZ1Jmk3QQQaqvmBiqXc8gdvg6S"
+			]
+		},
+		"tests/WorkTest_test.sol": {
+			"keccak256": "0x40cbc447dd101453bce9a80b51ae9eb5d5e0ebb5994dcd7864a1f1e6e99ddb33",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a2449b17392104202beee9ae97d949630963be38e0b5b5bb93d4d0aefcf6439b",
+				"dweb:/ipfs/QmUYpXPCQHWjtXx4wrdLpXcmQap6cAQWygJfd9WrUcVrn5"
+			]
+		}
+	},
+	"version": 1
+}

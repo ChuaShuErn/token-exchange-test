@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "RareCoinBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SkillsCoinBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testApprove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testAsserts",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testMint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTrade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testWorkflow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/ERCTransfer_test.sol": "ERCTransferTest"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RareCoin.sol": {
+			"keccak256": "0xd8674a0854e850c4f38d2bf527c0ab34ac1c566d19af4337d77937dad22d5b84",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://18905800b4678892d4a3ffe647830b1cb608f82568b1e883b1dd65ba0904d039",
+				"dweb:/ipfs/QmVwCbjUMG5gmQ714TBD1MBGWqMUXoLUE8tZZprTECiMDq"
+			]
+		},
+		"contracts/SkillsCoin.sol": {
+			"keccak256": "0xc826b99939fb0473be16ba8642c64ca31d35af1da2e2e8b438e2b736001e2b59",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://028235bb5377e06bb769c62fd972dd1b6f55beb374802253df339356e1badebb",
+				"dweb:/ipfs/QmeoaSarpoA4oQoTZuhLL6DokG4FmWrFguMTzuUWv3BNWw"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/ERCTransfer_test.sol": {
+			"keccak256": "0x5c0a9d5f1c400697b4cb59c636392a3c1cfc974dfb4ae8e87abce450b52ac740",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://34155a88fb4f27917d9aedd530671437c5efec9e5cc5d84d24df40cc23bf4656",
+				"dweb:/ipfs/QmYrAjS3dK7whx3MFWnE3Gjn17t2DVpj3tykccbk8DyyYv"
+			]
+		}
+	},
+	"version": 1
+}

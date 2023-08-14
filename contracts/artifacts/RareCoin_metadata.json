@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Logger",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract SkillsCoin",
+						"name": "skillsCoin",
+						"type": "address"
+					}
+				],
+				"name": "trade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RareCoin.sol": "RareCoin"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RareCoin.sol": {
+			"keccak256": "0x545b86d1e76ac59aebe683f0bc474bdc9808bf23f09e530112f83836727076c2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c4ba66eb756ec15a0eefd4aa45b45ede940de6931ff96a897dd24073ac17256f",
+				"dweb:/ipfs/QmZ9VMtuTStRYhRckCb384VinZfm2fJMZPLyhxDG34adX6"
+			]
+		},
+		"contracts/SkillsCoin.sol": {
+			"keccak256": "0xc826b99939fb0473be16ba8642c64ca31d35af1da2e2e8b438e2b736001e2b59",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://028235bb5377e06bb769c62fd972dd1b6f55beb374802253df339356e1badebb",
+				"dweb:/ipfs/QmeoaSarpoA4oQoTZuhLL6DokG4FmWrFguMTzuUWv3BNWw"
+			]
+		}
+	},
+	"version": 1
+}
